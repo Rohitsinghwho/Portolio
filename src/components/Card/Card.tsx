@@ -32,7 +32,7 @@ const  Card:React.FC<CardProps>= ({data}) => {
             <div className='text-md text-white w-48 break-words overflow-y-auto'>{data.title}</div>  
             <div className=' w-64 md:w-56 lg:w-64 break-words overflow-y-auto text-xs text-custom-gray'>{data.desc}</div>
             <div className='h-12 w-64 md:w-56 lg:w-64 flex items-center'>
-            <button className=' w-max p-1 border border-primary cursor-pointer' onClick={handleClick}>Live{" <->"}</button>
+            <button className=' w-max p-1 border border-primary cursor-pointer text-white' onClick={handleClick}>Live{" <->"}</button>
             </div>
           </div>
         </div>

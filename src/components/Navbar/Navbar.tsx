@@ -27,7 +27,7 @@ const Navbar = () => {
           showNav
             ? "max-h-screen opacity-100 scale-100"
             : "max-h-0 opacity-0 scale-y-95"
-        } border border-amber-900 flex flex-col gap-30 py-10 text-custom-gray text-lg`}
+        } flex flex-col gap-30 py-10 text-custom-gray text-lg`}
       >
           <div className="flex flex-col gap-8 text-md md:text-xl">
             <span className="w-max cursor-pointer transition-all duration-500 ease-in-out overflow-hidden">
@@ -45,7 +45,7 @@ const Navbar = () => {
               <span className="text-primary">#</span>contacts
             </span>
           </div>
-          <div className="border border-amber-600 transition-all duration-500 ease-in-out overflow-hidden">
+          <div className="transition-all duration-500 ease-in-out overflow-hidden">
             <div className="flex justify-center gap-4">
               <img className="cursor-pointer" src={github} alt="github" />
               <img className="cursor-pointer" src={linkedin} alt="linkedin" />
