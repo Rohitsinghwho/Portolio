@@ -17,7 +17,7 @@ This is my personal portfolio project built with a focus on showcasing my skills
 
 ---
 
-## 🧰 Tech-Stack-Used
+## Tech-Stack-Used
 
 - **Frontend:** React.js, HTML5, CSS3, JavaScript
 - **Backend:** Node.js, Express.js
@@ -28,7 +28,7 @@ This is my personal portfolio project built with a focus on showcasing my skills
 
 ---
 
-## 🔗 API-Format
+## API-Format
 
 > All APIs use JSON format. Authentication is handled via Bearer Token for protected routes.
 
