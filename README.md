@@ -7,17 +7,17 @@ This is my personal portfolio project built with a focus on showcasing my skills
 
 ## 📑 Table of Contents
 
-- [Tech Stack Used](#tech-stack-used)
-- [API Format](#api-format)
-- [Image Handling in Backend](#image-handling-in-backend)
+- [Tech-Stack-Used](#tech-stack-used)
+- [API-Format](#api-format)
+- [Image-Handling-in-Backend](#image-handling-in-backend)
 - [Design](#design)
-- [About the Project](#about-the-project)
-- [About the Developer](#about-the-developer)
-- [Project Link](#project-link)
+- [About-the-Project](#about-the-project)
+- [About-the-Developer](#about-the-developer)
+- [Project-Link](#project-link)
 
 ---
 
-## 🧰 Tech Stack Used
+## 🧰 Tech-Stack-Used
 
 - **Frontend:** React.js, HTML5, CSS3, JavaScript
 - **Backend:** Node.js, Express.js
@@ -28,7 +28,7 @@ This is my personal portfolio project built with a focus on showcasing my skills
 
 ---
 
-## 🔗 API Format
+## 🔗 API-Format
 
 > All APIs use JSON format. Authentication is handled via Bearer Token for protected routes.
 
@@ -106,4 +106,8 @@ Headers: {
 
 ## Design
 
-_The Design of this project is inspired by [Figma]('https://www.figma.com/design/7wHF5BYHezfu7nqDGjCTcA/Portfolio--Community-?node-id=0-1&p=f&t=nKbn9322lm6OWH6N-0')_
+- The Design of this project is inspired by [Figma]('https://www.figma.com/design/7wHF5BYHezfu7nqDGjCTcA/Portfolio--Community-?node-id=0-1&p=f&t=nKbn9322lm6OWH6N-0') 
+
+
+## Project-Link
+[Visit](https://devrohit-indol.vercel.app/)
