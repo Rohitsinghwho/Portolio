@@ -106,7 +106,7 @@ Headers: {
 
 ## Design
 
-- The Design of this project is inspired by [Figma]('https://www.figma.com/design/7wHF5BYHezfu7nqDGjCTcA/Portfolio--Community-?node-id=0-1&p=f&t=nKbn9322lm6OWH6N-0') 
+- _The Design of this project is inspired by [Figma](https://www.figma.com/design/7wHF5BYHezfu7nqDGjCTcA/Portfolio--Community-?node-id=0-1&p=f&t=nKbn9322lm6OWH6N-0)_ 
 
 
 ## Project-Link
