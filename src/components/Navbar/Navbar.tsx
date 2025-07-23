@@ -9,7 +9,7 @@ const Navbar = () => {
   const [showNav, SetShowNav] = useState(false);
 
   return (
-    <nav className="max-h-screen w-full font-web text-white mt-3 md:mt-10">
+    <nav className="max-h-screen w-full font-web text-white mt-3 md:mt-10 p-2 lg:p-0">
       <div className=" flex justify-between max-w-screen text-xl items-center">
         <h2 className="text-xl md:text-2xl lg:text-xl">
           <span className="text-primary">#</span>DEV

@@ -1,11 +1,22 @@
 
 import Wrapper from "./Pages/Wrapper/Wrapper"
+import { BrowserRouter } from "react-router-dom"
+import { Routes } from "react-router-dom"
+import { Route } from "react-router-dom"
+import Home from "./Pages/Home/Home"
 
 const App = () => {
   return (
-    <div className="main-container p-2 lg:p-0">
-       <Wrapper/>
-    </div>
+
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Wrapper/>}>
+          <Route index element={<Home/>} />
+          {/* <Route path="projects" element={<ProjectsPage />} />
+          <Route path="contact" element={<ContactPage />} /> */}
+        </Route>
+      </Routes>
+    </BrowserRouter>
   )
 }
 
