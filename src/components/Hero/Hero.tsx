@@ -14,7 +14,7 @@ const Hero = () => {
         <div className="text-custom-gray text-sm md:w-[300px] text-center md:text-start">
             He crafts responsive websites where technologies meet creativity
         </div>
-      <button className="w-[120px] h-[40px] border-1  border-primary p-2 hidden md:block">contact{"=>"}me</button>
+      <button className="w-[120px] h-[40px] border-1  border-primary p-2 hidden md:block cursor-pointer">contact{"=>"}me</button>
       </div>
       <div className="relative w-max mt-10 md:w-[320px]">
         <div>

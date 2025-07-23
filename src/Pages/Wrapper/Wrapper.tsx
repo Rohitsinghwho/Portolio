@@ -1,6 +1,8 @@
 import Hero from "../../components/Hero/Hero"
 import Navbar from "../../components/Navbar/Navbar"
+import About from "../../components/Section/About/About"
 import Projects from "../../components/Section/Project/Projects"
+import Skill from "../../components/Section/Skill/Skill"
 
 
 const Wrapper = () => {
@@ -10,6 +12,8 @@ const Wrapper = () => {
             <Navbar/>
             <Hero/>
             <Projects/>
+            <Skill/>
+            <About/>
         </div>
     </div>
   )

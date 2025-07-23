@@ -15,15 +15,21 @@ const Projects: React.FC<any> = () => {
     }
     
   return (
-    <div className="mt-10">
-      <Heading heading={"project"} showViewAll={true} />
+    <section className="mt-10">
+      <Heading heading={"projects"} showViewAll={true} />
+      <div className="p-2 md:p-0 flex flex-wrap gap-3 md:gap-5 justify-center mt-5 md:mt-10">
       {/* add backend */}
-      <div className="p-2 md:p-0 flex flex-wrap gap-3 md:gap-5 justify-center">
-       <Card data={dummyData}/>
-       <Card data={dummyData}/>
-       <Card data={dummyData}/>
+       <div className="w-full md:w-max">
+          <Card data={dummyData} cardType="project"/>
+       </div>
+        <div className="w-full md:w-max flex justify-end md:inline">
+          <Card data={dummyData} cardType="project"/>
+       </div>
+        <div>
+          <Card data={dummyData} cardType="project"/>
+       </div>
       </div>
-    </div>
+    </section>
   );
 };
 
