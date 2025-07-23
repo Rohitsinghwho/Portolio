@@ -45,11 +45,11 @@ const Skill:React.FC<any> = () => {
             <div className="">
                 <Card data={dummyData[0]} cardType="skill"/>
             </div>
-            <div className=" flex flex-col items-end gap-3">
+            <div className=" flex flex-col items-end gap-3 mt-2 md:mt-0">
                 <Card data={dummyData[1]} cardType="skill"/>
                 <Card data={dummyData[2]} cardType="skill"/>
             </div>
-            <div className=" flex flex-col items-center gap-3">
+            <div className=" flex flex-col items-center gap-3 mt-2 md:mt-0">
                 <Card data={dummyData[3]} cardType="skill"/>
                 <Card data={dummyData[4]} cardType="skill"/>
             </div>

@@ -23,7 +23,7 @@ const  Card:React.FC<CardProps>= ({data,cardType}) => {
   return (
       <div className="w-64 md:w-56 lg:w-64 border border-custom-gray font-web">
          {/* add backend */}
-          {data.imageUrl&&(<img src={data.imageUrl} alt="" />)}
+          {data.imageUrl&&(<img className="h-36" src={data.imageUrl} alt="" />)}
           {cardType==="skill"&&(
             <div className='text-md text-white w-48 break-words overflow-y-auto'>{data.title}</div> 
           )}
