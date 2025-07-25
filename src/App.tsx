@@ -5,6 +5,8 @@ import { Routes } from "react-router-dom"
 import { Route } from "react-router-dom"
 import Home from "./Pages/Home/Home"
 import ProjectPage from "./Pages/ProjectPage/ProjectPage"
+import AboutPage from "./Pages/About/AboutPage"
+import ContactPage from "./Pages/Contacts/ContactPage"
 
 const App = () => {
   return (
@@ -14,7 +16,8 @@ const App = () => {
         <Route path="/" element={<Wrapper/>}>
           <Route index element={<Home/>} />
            <Route path="projects" element={<ProjectPage/>} />
-         {/* <Route path="contact" element={<ContactPage />} /> */}
+         <Route path="about" element={<AboutPage/>} />
+         <Route path="contact" element={<ContactPage/>}/>
         </Route>
       </Routes>
     </BrowserRouter>

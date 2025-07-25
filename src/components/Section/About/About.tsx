@@ -4,6 +4,7 @@ import Person from "../../../assets/Image.png";
 import dots from "../../../assets/dots.png";
 
 const About = () => {
+  
   return (
     <section className="mt-10">
       <Heading heading={"about-me"} showViewAll={false} />

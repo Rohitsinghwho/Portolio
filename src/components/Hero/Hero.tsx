@@ -2,7 +2,9 @@ import person from "../../assets/person.png"
 import dots from "../../assets/dots.png"
 import logo from "../../assets/logo.png"
 import comma from "../../assets/comma.png"
+import { useNavigate } from "react-router-dom"
 const Hero = () => {
+  const navigate =useNavigate();
   return (
     <div className="text-white font-web  w-full">
       <div className="flex flex-col items-center md:flex-row md:justify-between">
@@ -14,7 +16,7 @@ const Hero = () => {
         <div className="text-custom-gray text-sm md:w-[300px] text-center md:text-start">
             He crafts responsive websites where technologies meet creativity
         </div>
-      <button className="w-[120px] h-[40px] border-1  border-primary p-2 hidden md:block cursor-pointer">contact{"=>"}me</button>
+      <button onClick={()=>navigate("contact")} className="w-[120px] h-[40px] border-1  border-primary p-2 hidden md:block cursor-pointer">contact{"=>"}me</button>
       </div>
       <div className="relative w-max mt-10 md:w-[320px]">
         <div>

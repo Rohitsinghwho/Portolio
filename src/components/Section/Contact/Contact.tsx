@@ -3,6 +3,12 @@ import email from "../../../assets/email.png"
 import linkedIn from "../../../assets/linkedin.png"
 
 const Contact = () => {
+  const handleGmailCompose = () => {
+  window.open(
+    "https://mail.google.com/mail/?view=cm&fs=1&to=developmentbyrohit@gmail.com&su=Hello&body=Hi Rohit!",
+    "_blank"
+  );
+}
   return (
     <section className="mt-10 font-web">
       <Heading heading={"contacts"} showViewAll={false} />
@@ -18,11 +24,16 @@ const Contact = () => {
             <div className="p-2">
             <div className="flex w-full">
                 <img src={email} alt="" />
-                <p>developmentbyrohit@gmail.com</p>
+                <p onClick={handleGmailCompose}>Mail</p>
             </div>
             <div className="flex w-full">
                 <img src={linkedIn} alt="" />
-                <p>rohit singh</p>
+                <p onClick={() =>
+                window.open(
+                  "https://www.linkedin.com/in/rohit-singh-4b1702280/",
+                  "_blank"
+                )
+              }>rohit singh</p>
             </div>
             </div>
         </div>
