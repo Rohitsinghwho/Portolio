@@ -14,8 +14,8 @@ const Footer = () => {
       <div className="flex flex-col md:flex-row md:justify-between items-center gap-10 md:gap-0">
         <div className="flex flex-col">
           <div className="flex gap-3 justify-center">
-            <span className="text-white font-semibold ">DevRohit</span>
-            <span className="text-custom-gray">
+            <span className="text-white font-semibold text-sm ">DevRohit</span>
+            <span className="text-custom-gray text-sm">
               developmentbyrohit@gmail.com
             </span>
           </div>

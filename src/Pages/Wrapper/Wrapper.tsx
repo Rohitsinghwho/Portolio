@@ -7,7 +7,7 @@ import { Outlet } from "react-router-dom"
 const Wrapper = () => {
   return (
     <div className="flex justify-center items-center main-container">
-      <div className="md:w-[100%] lg:w-[80%]">
+      <div className="w-[100%] lg:w-[80%]">
         <div >
           <Navbar/>
             <main className="p-2 lg:p-0">
