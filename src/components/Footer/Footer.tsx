@@ -19,7 +19,7 @@ const Footer = () => {
               developmentbyrohit@gmail.com
             </span>
           </div>
-          <div>
+          <div className="text-sm">
             <span className="text-white">
               Full stack devloper and AI&ML Enthusiast
             </span>

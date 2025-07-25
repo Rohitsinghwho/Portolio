@@ -47,23 +47,23 @@ const Navbar = () => {
             <span className="w-max cursor-pointer transition-all duration-500 ease-in-out overflow-hidden">
               <NavLink to={"/"} className={({isActive})=>isActive?"text-white":"text-custom-gray"}>
               <span className="text-primary">#</span>
-              <span>home</span>
+              <span onClick={()=>SetShowNav(false)}>home</span>
               </NavLink>
             </span>
             <span className="w-max cursor-pointer transition-all duration-500 ease-in-out overflow-hidden">
               <NavLink to={"/projects"} className={({isActive})=>isActive?"text-white":"text-custom-gray"}>
               <span className="text-primary">#</span>
-              <span>works</span>
+              <span onClick={()=>SetShowNav(false)}>works</span>
               </NavLink>
             </span>
             <span className="w-max cursor-pointer transition-all duration-500 ease-in-out overflow-hidden">
-              <NavLink to={"/about"} className={({isActive})=>isActive?"text-white":"text-custom-gray"}>
+              <NavLink to={"/about"} className={({isActive})=>isActive?"text-white":"text-custom-gray"} onClick={()=>SetShowNav(false)}>
               <span className="text-primary">#</span>about-me
               </NavLink>
             </span>
             <span className="w-max cursor-pointer transition-all duration-500 ease-in-out overflow-hidden">
-               <NavLink to={"/contact"} className={({isActive})=>isActive?"text-white":"text-custom-gray"}>
-              <span className="text-primary">#</span>contacts
+               <NavLink to={"/contact"} className={({isActive})=>isActive?"text-white":"text-custom-gray"} onClick={()=>SetShowNav(false)}>
+              <span className="text-primary" >#</span>contacts
                </NavLink>
             </span>
           </div>
