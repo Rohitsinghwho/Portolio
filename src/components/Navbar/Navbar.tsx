@@ -6,11 +6,10 @@ import linkedin from "../../assets/linkedin.png";
 import email from "../../assets/email.png";
 import { Link } from "react-router-dom";
 import { NavLink } from "react-router-dom";
-import { useNavigate } from "react-router-dom";
+
 
 const Navbar = () => {
   const [showNav, SetShowNav] = useState(false);
-  const navigate =useNavigate()
 
 
   const handleGmailCompose = () => {
